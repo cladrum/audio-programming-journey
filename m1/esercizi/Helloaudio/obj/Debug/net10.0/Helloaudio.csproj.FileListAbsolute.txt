@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\helloaudio\bin\Debug\net10.0\Helloaudio.exe
+D:\STUDIO\m1\esercizi\helloaudio\bin\Debug\net10.0\Helloaudio.deps.json
+D:\STUDIO\m1\esercizi\helloaudio\bin\Debug\net10.0\Helloaudio.runtimeconfig.json
+D:\STUDIO\m1\esercizi\helloaudio\bin\Debug\net10.0\Helloaudio.dll
+D:\STUDIO\m1\esercizi\helloaudio\bin\Debug\net10.0\Helloaudio.pdb
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.sourcelink.json
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.dll
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\refint\Helloaudio.dll
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.pdb
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\Helloaudio.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\helloaudio\obj\Debug\net10.0\ref\Helloaudio.dll
