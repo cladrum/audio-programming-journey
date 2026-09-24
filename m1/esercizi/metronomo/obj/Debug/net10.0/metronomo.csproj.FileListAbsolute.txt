@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.sourcelink.json
+D:\STUDIO\m1\esercizi\metronomo\bin\Debug\net10.0\metronomo.exe
+D:\STUDIO\m1\esercizi\metronomo\bin\Debug\net10.0\metronomo.deps.json
+D:\STUDIO\m1\esercizi\metronomo\bin\Debug\net10.0\metronomo.runtimeconfig.json
+D:\STUDIO\m1\esercizi\metronomo\bin\Debug\net10.0\metronomo.dll
+D:\STUDIO\m1\esercizi\metronomo\bin\Debug\net10.0\metronomo.pdb
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.dll
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\refint\metronomo.dll
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.pdb
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\metronomo.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\metronomo\obj\Debug\net10.0\ref\metronomo.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\STUDIO\\m1\\esercizi\\Helloaudio\\Helloaudio.csproj": {}
+    "D:\\STUDIO\\m1\\esercizi\\metronomo\\metronomo.csproj": {}
   },
   "projects": {
-    "D:\\STUDIO\\m1\\esercizi\\Helloaudio\\Helloaudio.csproj": {
+    "D:\\STUDIO\\m1\\esercizi\\metronomo\\metronomo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\Helloaudio\\Helloaudio.csproj",
-        "projectName": "Helloaudio",
-        "projectPath": "D:\\STUDIO\\m1\\esercizi\\Helloaudio\\Helloaudio.csproj",
+        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\metronomo\\metronomo.csproj",
+        "projectName": "metronomo",
+        "projectPath": "D:\\STUDIO\\m1\\esercizi\\metronomo\\metronomo.csproj",
         "packagesPath": "C:\\Users\\cladr\\.nuget\\packages\\",
-        "outputPath": "D:\\STUDIO\\m1\\esercizi\\Helloaudio\\obj\\",
+        "outputPath": "D:\\STUDIO\\m1\\esercizi\\metronomo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cladr\\AppData\\Roaming\\NuGet\\NuGet.Config"
