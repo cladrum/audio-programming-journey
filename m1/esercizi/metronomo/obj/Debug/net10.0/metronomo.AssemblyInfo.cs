@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("metronomo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+221f290d99b3120495596ba067d723d3eceb5e43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a9ec42ac02c4f59eecefbe0bb1c0412c1889983")]
 [assembly: System.Reflection.AssemblyProductAttribute("metronomo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("metronomo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
