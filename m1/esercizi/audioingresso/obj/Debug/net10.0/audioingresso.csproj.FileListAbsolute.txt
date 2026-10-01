@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\audioingresso\bin\Debug\net10.0\audioingresso.exe
+D:\STUDIO\m1\esercizi\audioingresso\bin\Debug\net10.0\audioingresso.deps.json
+D:\STUDIO\m1\esercizi\audioingresso\bin\Debug\net10.0\audioingresso.runtimeconfig.json
+D:\STUDIO\m1\esercizi\audioingresso\bin\Debug\net10.0\audioingresso.dll
+D:\STUDIO\m1\esercizi\audioingresso\bin\Debug\net10.0\audioingresso.pdb
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.sourcelink.json
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.dll
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\refint\audioingresso.dll
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.pdb
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\audioingresso.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\audioingresso\obj\Debug\net10.0\ref\audioingresso.dll

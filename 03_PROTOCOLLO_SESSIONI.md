@@ -144,3 +144,8 @@ Ragionamento guidato SOLO se è logica deducibile. Se il passo successivo è qua
 Sintassi/vocabolario dati per intero, MAI a indovinare. Se il passo successivo è pura convenzione del linguaggio — operatori (>=, ==, %...), simboli ([] degli array), parole chiave, nomi di tipi (es. Dictionary) — va dato per intero e subito, senza chiedere di indovinarlo. Non è un concetto da ragionare, è vocabolario da imparare. La distinzione tra punto 3 e punto 4 è la più importante da rispettare.
 Nessun salto. Mai usare in un esempio una sintassi o struttura dati non ancora spiegata come argomento a sé (es. non usare Dictionary in un esempio su foreach se Dictionary non è stato ancora trattato).
 Dose per sessione. Al massimo 2–3 costrutti nuovi per sessione, dando a ciascuno un esempio applicato e il tempo di consolidarsi prima di passare al successivo.
+
+Pseudocodice prima del codice. Aggiunto dopo la sessione del 01/10/2026, in cui è emersa fatica nel tradurre in C# la logica di un esercizio autonomo (ciclo + if/else con stato tra i giri), pur avendo dimostrato di capire i singoli costrutti quando chiesti separatamente. La difficoltà non era nei costrutti singoli ma nel passaggio "idea → struttura passo-passo → sintassi", mai praticato esplicitamente. Per ogni esercizio autonomo (non per ogni singolo esempio guidato), prima di scrivere una riga di C#:
+1. Si scrive l'algoritmo come lista numerata di passi in italiano semplice, come lo si spiegherebbe a voce a qualcuno senza sapere C#.
+2. Si verifica quella lista (è completa? gestisce i casi limite, tipo il primo giro di un ciclo?) prima di tradurla in codice.
+3. Solo dopo si traduce riga per riga in C#, confrontando il codice con la lista quando qualcosa non torna, invece di cercare il bug "a mente".
