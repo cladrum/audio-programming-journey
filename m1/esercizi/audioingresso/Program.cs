@@ -13,5 +13,3 @@ float valoreIniziale = 1000;
 
 
 
-
-
