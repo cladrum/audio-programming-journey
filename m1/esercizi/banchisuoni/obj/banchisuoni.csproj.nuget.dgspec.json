@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj": {}
+    "D:\\STUDIO\\m1\\esercizi\\banchisuoni\\banchisuoni.csproj": {}
   },
   "projects": {
-    "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj": {
+    "D:\\STUDIO\\m1\\esercizi\\banchisuoni\\banchisuoni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj",
-        "projectName": "simcolpo",
-        "projectPath": "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj",
+        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\banchisuoni\\banchisuoni.csproj",
+        "projectName": "banchisuoni",
+        "projectPath": "D:\\STUDIO\\m1\\esercizi\\banchisuoni\\banchisuoni.csproj",
         "packagesPath": "C:\\Users\\cladr\\.nuget\\packages\\",
-        "outputPath": "D:\\STUDIO\\m1\\esercizi\\simcolpo\\obj\\",
+        "outputPath": "D:\\STUDIO\\m1\\esercizi\\banchisuoni\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cladr\\AppData\\Roaming\\NuGet\\NuGet.Config"

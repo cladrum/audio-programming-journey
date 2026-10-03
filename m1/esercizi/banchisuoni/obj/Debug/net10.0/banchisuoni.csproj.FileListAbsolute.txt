@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.sourcelink.json
+D:\STUDIO\m1\esercizi\banchisuoni\bin\Debug\net10.0\banchisuoni.exe
+D:\STUDIO\m1\esercizi\banchisuoni\bin\Debug\net10.0\banchisuoni.deps.json
+D:\STUDIO\m1\esercizi\banchisuoni\bin\Debug\net10.0\banchisuoni.runtimeconfig.json
+D:\STUDIO\m1\esercizi\banchisuoni\bin\Debug\net10.0\banchisuoni.dll
+D:\STUDIO\m1\esercizi\banchisuoni\bin\Debug\net10.0\banchisuoni.pdb
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.dll
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\refint\banchisuoni.dll
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.pdb
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\banchisuoni.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\banchisuoni\obj\Debug\net10.0\ref\banchisuoni.dll

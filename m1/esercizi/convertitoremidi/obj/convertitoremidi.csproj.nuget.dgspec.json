@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj": {}
+    "d:\\STUDIO\\m1\\esercizi\\convertitoremidi\\convertitoremidi.csproj": {}
   },
   "projects": {
-    "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj": {
+    "d:\\STUDIO\\m1\\esercizi\\convertitoremidi\\convertitoremidi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj",
-        "projectName": "simcolpo",
-        "projectPath": "D:\\STUDIO\\m1\\esercizi\\simcolpo\\simcolpo.csproj",
+        "projectUniqueName": "d:\\STUDIO\\m1\\esercizi\\convertitoremidi\\convertitoremidi.csproj",
+        "projectName": "convertitoremidi",
+        "projectPath": "d:\\STUDIO\\m1\\esercizi\\convertitoremidi\\convertitoremidi.csproj",
         "packagesPath": "C:\\Users\\cladr\\.nuget\\packages\\",
-        "outputPath": "D:\\STUDIO\\m1\\esercizi\\simcolpo\\obj\\",
+        "outputPath": "d:\\STUDIO\\m1\\esercizi\\convertitoremidi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cladr\\AppData\\Roaming\\NuGet\\NuGet.Config"

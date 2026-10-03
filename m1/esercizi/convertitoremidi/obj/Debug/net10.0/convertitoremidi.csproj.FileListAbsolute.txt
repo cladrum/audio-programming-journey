@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\convertitoremidi\bin\Debug\net10.0\convertitoremidi.exe
+D:\STUDIO\m1\esercizi\convertitoremidi\bin\Debug\net10.0\convertitoremidi.deps.json
+D:\STUDIO\m1\esercizi\convertitoremidi\bin\Debug\net10.0\convertitoremidi.runtimeconfig.json
+D:\STUDIO\m1\esercizi\convertitoremidi\bin\Debug\net10.0\convertitoremidi.dll
+D:\STUDIO\m1\esercizi\convertitoremidi\bin\Debug\net10.0\convertitoremidi.pdb
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.sourcelink.json
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.dll
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\refint\convertitoremidi.dll
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.pdb
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\convertitoremidi.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\convertitoremidi\obj\Debug\net10.0\ref\convertitoremidi.dll
