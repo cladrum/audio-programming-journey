@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\simcolpo\bin\Debug\net10.0\simcolpo.exe
+D:\STUDIO\m1\esercizi\simcolpo\bin\Debug\net10.0\simcolpo.deps.json
+D:\STUDIO\m1\esercizi\simcolpo\bin\Debug\net10.0\simcolpo.runtimeconfig.json
+D:\STUDIO\m1\esercizi\simcolpo\bin\Debug\net10.0\simcolpo.dll
+D:\STUDIO\m1\esercizi\simcolpo\bin\Debug\net10.0\simcolpo.pdb
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.sourcelink.json
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.dll
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\refint\simcolpo.dll
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.pdb
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\simcolpo.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\simcolpo\obj\Debug\net10.0\ref\simcolpo.dll

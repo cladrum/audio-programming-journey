@@ -1,0 +1,15 @@
+d:\STUDIO\m1\esercizi\provadebug\bin\Debug\net10.0\provadebug.exe
+d:\STUDIO\m1\esercizi\provadebug\bin\Debug\net10.0\provadebug.deps.json
+d:\STUDIO\m1\esercizi\provadebug\bin\Debug\net10.0\provadebug.runtimeconfig.json
+d:\STUDIO\m1\esercizi\provadebug\bin\Debug\net10.0\provadebug.dll
+d:\STUDIO\m1\esercizi\provadebug\bin\Debug\net10.0\provadebug.pdb
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.GeneratedMSBuildEditorConfig.editorconfig
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.AssemblyInfoInputs.cache
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.AssemblyInfo.cs
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.csproj.CoreCompileInputs.cache
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.sourcelink.json
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.dll
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\refint\provadebug.dll
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.pdb
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\provadebug.genruntimeconfig.cache
+d:\STUDIO\m1\esercizi\provadebug\obj\Debug\net10.0\ref\provadebug.dll

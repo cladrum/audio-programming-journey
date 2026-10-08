@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.sourcelink.json
+D:\STUDIO\m1\esercizi\console\bin\Debug\net10.0\console.exe
+D:\STUDIO\m1\esercizi\console\bin\Debug\net10.0\console.deps.json
+D:\STUDIO\m1\esercizi\console\bin\Debug\net10.0\console.runtimeconfig.json
+D:\STUDIO\m1\esercizi\console\bin\Debug\net10.0\console.dll
+D:\STUDIO\m1\esercizi\console\bin\Debug\net10.0\console.pdb
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.dll
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\refint\console.dll
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.pdb
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\console.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\console\obj\Debug\net10.0\ref\console.dll

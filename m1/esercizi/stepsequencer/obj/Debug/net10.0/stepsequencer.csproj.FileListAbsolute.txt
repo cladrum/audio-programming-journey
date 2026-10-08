@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.sourcelink.json
+D:\STUDIO\m1\esercizi\stepsequencer\bin\Debug\net10.0\stepsequencer.exe
+D:\STUDIO\m1\esercizi\stepsequencer\bin\Debug\net10.0\stepsequencer.deps.json
+D:\STUDIO\m1\esercizi\stepsequencer\bin\Debug\net10.0\stepsequencer.runtimeconfig.json
+D:\STUDIO\m1\esercizi\stepsequencer\bin\Debug\net10.0\stepsequencer.dll
+D:\STUDIO\m1\esercizi\stepsequencer\bin\Debug\net10.0\stepsequencer.pdb
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.dll
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\refint\stepsequencer.dll
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.pdb
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\stepsequencer.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\stepsequencer\obj\Debug\net10.0\ref\stepsequencer.dll
