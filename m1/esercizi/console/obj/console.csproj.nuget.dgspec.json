@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\STUDIO\\m1\\esercizi\\console\\console.csproj": {}
+    "D:\\STUDIO\\m1\\esercizi\\console\\console.csproj": {}
   },
   "projects": {
-    "d:\\STUDIO\\m1\\esercizi\\console\\console.csproj": {
+    "D:\\STUDIO\\m1\\esercizi\\console\\console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\STUDIO\\m1\\esercizi\\console\\console.csproj",
+        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\console\\console.csproj",
         "projectName": "console",
-        "projectPath": "d:\\STUDIO\\m1\\esercizi\\console\\console.csproj",
+        "projectPath": "D:\\STUDIO\\m1\\esercizi\\console\\console.csproj",
         "packagesPath": "C:\\Users\\cladr\\.nuget\\packages\\",
-        "outputPath": "d:\\STUDIO\\m1\\esercizi\\console\\obj\\",
+        "outputPath": "D:\\STUDIO\\m1\\esercizi\\console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cladr\\AppData\\Roaming\\NuGet\\NuGet.Config"

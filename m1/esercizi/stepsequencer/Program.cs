@@ -1,28 +1,61 @@
-﻿bool[] kick = new bool[16];
-
-
-
-Console.WriteLine("Scrivi quale step vuoi modificare");
-
-if (int.TryParse (Console.ReadLine(), out int scelta) && scelta >= 0 && scelta < 16)
+﻿bool[,] griglia = new bool[4, 16];
+string[] nomi = { "kick", "snare", "hihat", "crash" };
+for (int i = 0; i < nomi.Length ; i++)
 {
-    kick[scelta] = !kick[scelta];
-}
-else
-{
-    Console.WriteLine("Valore non valido");
+    Console.WriteLine(i + " - " + nomi[i]);
 }
 
-for (int i = 0; i < 16; i++)
+Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
+
+string menu = Console.ReadLine();
+
+while (menu != "esci")
 {
-    if (kick[i] == true)
+    if (int.TryParse(menu, out int sceltatraccia) && sceltatraccia >= 0 && sceltatraccia < griglia.GetLength(0))
     {
-        Console.Write("o");
+        Console.WriteLine("Scrivi quale step vuoi modificare");
+        string sceltastep = Console.ReadLine();
+        if (int.TryParse(sceltastep, out int step) && step >= 0 && step < griglia.GetLength(1))
+        {
+            griglia[sceltatraccia, step] = !griglia[sceltatraccia, step];
+        }
+        else
+        {
+            Console.WriteLine("Valore non valido");
+        }
     }
     else
     {
-        Console.Write("-");
+        Console.WriteLine("Valore non valido");
     }
+    Stampa(griglia, nomi);
+    Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
+    for (int i = 0; i < nomi.Length ; i++)
+{
+    Console.Write(i + " - " + nomi[i] + " ");
+    Console.WriteLine();
+}
+    menu = Console.ReadLine();
 }
 
-Console.WriteLine();
+Console.WriteLine("Ciao");
+
+static void Stampa(bool[,] griglia, string[] nomi)
+{
+    for (int t = 0; t < griglia.GetLength(0); t++)
+    {
+        Console.Write (t + " - " + nomi[t] + " ");
+        for (int s = 0; s < griglia.GetLength(1); s++)
+        {
+            if (griglia[t, s] == true)
+            {
+                Console.Write("o");
+            }
+            else
+            {
+                Console.Write("-");
+            }
+        }
+        Console.WriteLine();
+    }
+    }
