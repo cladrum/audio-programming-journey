@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj": {}
+    "D:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj": {}
   },
   "projects": {
-    "d:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj": {
+    "D:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj",
+        "projectUniqueName": "D:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj",
         "projectName": "provadebug",
-        "projectPath": "d:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj",
+        "projectPath": "D:\\STUDIO\\m1\\esercizi\\provadebug\\provadebug.csproj",
         "packagesPath": "C:\\Users\\cladr\\.nuget\\packages\\",
-        "outputPath": "d:\\STUDIO\\m1\\esercizi\\provadebug\\obj\\",
+        "outputPath": "D:\\STUDIO\\m1\\esercizi\\provadebug\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cladr\\AppData\\Roaming\\NuGet\\NuGet.Config"

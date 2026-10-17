@@ -1,10 +1,11 @@
-﻿bool[,] griglia = new bool[4, 16];
+﻿using System.Diagnostics.Contracts;
+
+bool[,] griglia = new bool[4, 16];
 string[] nomi = { "kick", "snare", "hihat", "crash" };
 for (int i = 0; i < nomi.Length ; i++)
 {
     Console.WriteLine(i + " - " + nomi[i]);
 }
-
 Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
 
 string menu = Console.ReadLine();
@@ -29,6 +30,10 @@ while (menu != "esci")
         Console.WriteLine("Valore non valido");
     }
     Stampa(griglia, nomi);
+                for (int a = 0; a < nomi.Length; a++)
+{
+    Console.WriteLine(nomi[a] + ": " + ContaStepAttivi(griglia,a) + " step attivi");
+}
     Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
     for (int i = 0; i < nomi.Length ; i++)
 {
@@ -37,6 +42,7 @@ while (menu != "esci")
 }
     menu = Console.ReadLine();
 }
+
 
 Console.WriteLine("Ciao");
 
@@ -58,4 +64,18 @@ static void Stampa(bool[,] griglia, string[] nomi)
         }
         Console.WriteLine();
     }
+}
+
+
+static int ContaStepAttivi(bool[,] griglia, int traccia)
+{
+    int contatore = 0;
+    for (int stepp = 0; stepp < griglia.GetLength(1); stepp++)
+    {
+        if (griglia[traccia, stepp])
+        {
+            contatore++;
+        }
     }
+    return contatore;
+}
