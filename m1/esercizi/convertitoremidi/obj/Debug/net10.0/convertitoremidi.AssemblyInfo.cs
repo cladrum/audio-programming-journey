@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("convertitoremidi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c26b90cc4a7e34248b95f2823297b352439c482")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07595f170607fafde12e7f5e11482c6345b13b7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("convertitoremidi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("convertitoremidi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
