@@ -1,35 +1,37 @@
 === AGGIORNAMENTO REGISTRO ===
 [STATO ATTUALE]
 Modulo corrente: 1 — Basi di C#
-Lezione corrente: Stato tra i giri (massimo, indice, serie), operatori logici || e !, metodi bool generici (IndiceValido), ToLower()
-Prossimo argomento: ripasso breve; switch + enum; elenco argomenti M1 contro curriculum per vedere cosa manca; quiz di teoria M1; mini-progetto Console Drum Machine; esame modulo 1
-Compiti in sospeso: push GitHub (IndiceValido, uscita con ToLower); rinomina parametri IndiceValido in indice/lunghezza e eventuale "a" in "traccia"; domanda array vuoto su CanalePiuForte (-1 contro 0); StampaTraccia con Write invece di WriteLine; richiamo a freddo in contesto nuovo (float.TryParse + range dB, scritto in chat, segnare prima stesura); diario; facoltativi: conteggio attraversamenti di soglia, switch su VoceMenu, metronomo
-Sessioni svolte: 11
-Ore totali (stima): 32,5
+Lezione corrente: switch + enum; blocco A del recupero (double e cast, Math.Pow/Log10, Math.Clamp, lerp); const spiegato ma non ancora verificato
+Prossimo argomento: ripartire dal messaggio su const (leggere e rispondere alle 2 domande), poi blocco B (scope, formattazione stringhe, overload), blocco C (List, Dictionary, debugging con breakpoint); richiamo a freddo float.TryParse + range dB in contesto nuovo (es. convertitore dB ↔ lineare con input da tastiera); quiz di teoria M1; mini-progetto Console Drum Machine; esame modulo 1
+Compiti in sospeso: lettura e risposte su const; push GitHub (switch comandi, LivelloSuperficie con enum, DbPerMixer, Lerp, IndiceValido, uscita con ToLower); rinomina parametri IndiceValido in indice/lunghezza e eventuale "a" in "traccia"; domanda array vuoto su CanalePiuForte (-1 contro 0); StampaTraccia con Write invece di WriteLine; richiamo float.TryParse + range dB; diario; facoltativi: DbPerMixer con const, conteggio attraversamenti di soglia, metronomo
+Sessioni svolte: 12
+Ore totali (stima): 36,5
 
 [CHECKBOX DA SPUNTARE]
-- Modulo 1 > Argomenti > Metodi con return [x] — int, bool e float verificati (ContaStepAttivi, BpmValido, IndiceValido, CampioniPerSemicroma, DurataStepInMs, PiuForte, CanalePiuForte, PiuLungaSerie, ContaSerie)
-- Modulo 1 > Argomenti > Operatori logici (&&, ||, !) [x] — || verificato su StepConAccento e riscritto dopo un errore sul while di uscita; ! usato correttamente nel menu; da consolidare: negazione di un "oppure"
-- Modulo 1 > Argomenti > Stringhe e formattazione [ ] — iniziato: ToLower() per confronti senza distinzione maiuscole/minuscole
-- Modulo 1 > Argomenti > Pattern "ricordo il migliore finora" [x] — massimo e indice (float.NegativeInfinity, for con indice); da consolidare in contesto nuovo
-- Modulo 1 > Argomenti > TryParse + range [ ] — il richiamo a freddo non è passato (usato come int senza out); da rifare in contesto nuovo
+- Modulo 1 > Argomenti > switch + enum [x] — switch con string e con enum, SurfaceType, metodo con parametro enum e un solo return
+- Modulo 1 > Argomenti > double e cast [x] — float contro double, f finale, cast (float); da consolidare in contesto nuovo
+- Modulo 1 > Argomenti > Math.Pow e Math.Log10 [x] — dB ↔ lineare, cast da double a float
+- Modulo 1 > Argomenti > Clamp [x] — Math.Clamp, tre modi di usare il risultato; DbPerMixer con due clamp nell'ordine giusto
+- Modulo 1 > Argomenti > Lerp [x] — formula a + (b - a) * t, metodo Lerp con clamp su t
+- Modulo 1 > Argomenti > const [ ] — spiegato, verifica non ancora fatta
+- Modulo 1 > Argomenti > Scope, formattazione stringhe, overload [ ] — mai visti, blocco B
+- Modulo 1 > Argomenti > List, Dictionary, debugging [ ] — da ripassare, blocco C
+- Modulo 1 > Argomenti > TryParse + range [ ] — ancora da rifare in contesto nuovo
+- Modulo 1 > Esercizi > Comandi con switch, LivelloSuperficie, DbPerMixer, Lerp [x]
 
 [LACUNE — nuove o aggiornate]
 | # | Lacuna | Prima volta | Occorrenze | Esercizi mirati | Risolta? |
 |---|---|---|---|---|---|
-| 3 | Confusione nome parametro / variabile esterna nei metodi | 24/09/2026 | 7 (oggi nessuna nuova: IndiceValido usato con due argomenti diversi e provenienza dei valori spiegata bene) | Metodi con due parametri su casi nuovi | Quasi |
-| 5 | Dal problema alla logica: cosa dentro e cosa fuori il ciclo; stato tra i giri | 01/10/2026 | 11 (oggi: contatore per impaginare il foreach non venuto da solo; livelloPiuForte dichiarato dentro il for su CC; in chat "la metto dentro il foreach"; ContaSerie non gestiva la fine dell'array, trovato con prova a mano; return dentro il foreach ammesso come svista, motivo spiegato bene dopo) | Pseudocodice; prove a mano dei giri; domanda "cosa succede alla fine?" | Parzialmente — in miglioramento |
-| 6 | Bordi e indici (ordinale contro indice, verso dei confronti) | 01/10/2026 | 12 (oggi: nel 241 confronto letto al contrario; LivelloFuoriRange con >= e <= invece di > e <) | Su richiesta dell'utente niente più verifiche sistematiche: correggere solo se sbaglia | Quasi |
-| 9 | Compilazione vs runtime quando il dato è un valore | 04/10/2026 | 5 (nessuna nuova) | — | Quasi |
-| 12 | Richiamo dei pattern a memoria | 08/10/2026 | 4 (oggi: int.TryParse scritto come se restituisse un int, senza out; WriteLine al posto di Write; StampaTraccia non trovato) | Richiamo in contesti nuovi, non riscrittura | No |
-| 14 | Cosa porta un parametro: dati contro selezione | 17/10/2026 | 1 (nessuna nuova) | — | Quasi |
-| 15 | Una condizione è già un valore bool | 18/10/2026 | 2 (oggi: == true tolto dopo domanda; if (stepAttivo) e return con || da verificare in autonomia) | Altri metodi bool su casi nuovi | Quasi |
-| 16 | Ruolo delle variabili: valore del ciclo (sola lettura) contro variabile che aggiorno io; direzione dell'= | 22/10/2026 | 3 (oggi su CC: nuovoValore = valoreBpm al contrario; piuAlto = livello con variabile del foreach; out int ridichiarato a ogni giro; in chat spiegato correttamente che la variabile del foreach è sola lettura) | Esercizi con una variabile "record" dichiarata fuori e il valore del ciclo solo letto | Parzialmente |
-| 17 | Negazione di un "oppure" (diverso da A oppure da B = diverso da A e da B) | 22/10/2026 | 1 (oggi: while con || sempre vero; risolto con && e poi ToLower) | Contesto nuovo con controllo di uscita o di range | No |
-| 18 | Leggere la consegna (valore contro indice) | 22/10/2026 | 1 (oggi: CanalePiuForte fatto prima come valore, poi come indice) | Rileggere la consegna prima di scrivere | Segnalata |
+| 3 | Confusione nome parametro / variabile esterna nei metodi | 24/09/2026 | 8 (oggi: variabile "tipo" in più nel metodo con enum, tolta da solo dopo la domanda) | Metodi con parametri su casi nuovi | Sì, da confermare |
+| 5 | Dal problema alla logica: cosa dentro e cosa fuori il ciclo; stato tra i giri | 01/10/2026 | 12 (oggi: nel ripasso il motivo per cui il record sta fuori dal ciclo era "perché parto da -infinito") | Pseudocodice; prove a mano dei giri | Parzialmente |
+| 9 | Compilazione vs runtime quando il dato è un valore | 04/10/2026 | 5 (oggi nessuna nuova: enum scritto male = compilazione, giusto; Math.Clamp con limiti invertiti = runtime, trovato da solo) | — | Quasi |
+| 16 | Ruolo delle variabili; direzione dell'= | 22/10/2026 | 3 (oggi nessuna nuova: clamp riassegnato alla stessa variabile usato bene) | — | Quasi |
+| 17 | Negazione di un "oppure" | 22/10/2026 | 1 (oggi risolta nel ripasso: != n && != s e motivo del || sempre vero spiegato bene) | Contesto nuovo con controllo di uscita | Quasi |
+| 18 | Leggere la consegna | 22/10/2026 | 3 (oggi: array al posto della variabile singola nello switch; fade da -12 a 0 invece che da 0 a -12; per quest'ultimo nessun effetto sul concetto, quindi non va segnalato quando non cambia il ragionamento) | Rileggere la consegna prima di scrivere | Segnalata |
+| 19 | Segno nelle sottrazioni con numeri negativi (b - a con dB) | 24/10/2026 | 1 (oggi: b - a con a = -60 e b = 0 scritto come -60; corretto con meno per meno) | Lerp e differenze tra livelli in dB negativi | No |
 
 [LOG SESSIONE — riga da aggiungere in cima]
 | # | Data | Modulo/Lezione | Cosa abbiamo fatto | Chiaro | Poco chiaro | Compiti |
 |---|---|---|---|---|---|---|
-| 11 | 22/10/2026 | M1 (metodi bool generici, || e !, stato tra i giri) | Verifiche a mano di BpmValido; IndiceValido nel menu; CampioniPerSemicroma e DurataStepInMs; || e !; while di uscita con ToLower; PiuForte, CanalePiuForte, PiuLungaSerie, ContaSerie; lavoro fino alle 18:05 circa svolto in parte con Claude Code in VS Code e incollato dopo; da lì in poi tutto scritto in diretta in chat (PiuLungaSerie, ContaSerie) | IndiceValido generico; ToLower; return dopo il ciclo; seriepiulunga = serie; ContaSerie con controllo dopo il ciclo | negazione di un "oppure"; stato tra i giri nei contesti nuovi; ruolo delle variabili nel foreach; TryParse a freddo | push; rinomina parametri; array vuoto su CanalePiuForte; Write in StampaTraccia; float.TryParse + range dB in chat; diario |
+| 12 | 24/10/2026 | M1 (switch + enum, blocco A: double, Pow/Log10, Clamp, Lerp) | Ripasso (while con && e !=, record fuori dal ciclo); switch con ReadLine e ToLower; enum SurfaceType e LivelloSuperficie; confronto elenco argomenti M1 con curriculum e piano in tre blocchi; double e cast; DbPerMixer; Math.Clamp; Lerp con clamp; const spiegato, non verificato | switch come alternative su una variabile; ToLower con case minuscoli; enum e errori a compilazione; cast float/double; clamp prima e dopo la conversione; ordine dei due clamp; formula del lerp | dove si sceglie il valore nello switch (equivoco nato dalla consegna); segno di b - a con dB negativi; RT del TryParse non ripreso (sospeso su richiesta) | lettura e verifica su const; push GitHub; compiti sessione 11; diario; facoltativo DbPerMixer con const |
 === FINE AGGIORNAMENTO ===

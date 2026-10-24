@@ -1,108 +1,106 @@
-﻿bool[,] griglia = new bool[4, 16];
-string[] nomi = { "kick", "snare", "hihat", "crash" };
-for (int i = 0; i < nomi.Length ; i++)
-{
-    Console.WriteLine(i + " - " + nomi[i]);
-}
-Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
+﻿// using System.Data.Common;
+// using System.Runtime.CompilerServices;
 
-string menu = Console.ReadLine();
+// bool[,] griglia = new bool[4, 16];
+// string[] nomi = { "kick", "snare", "hihat", "crash" };
+// for (int i = 0; i < nomi.Length ; i++)
+// {
+//     Console.WriteLine(i + " - " + nomi[i]);
+// }
+// Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
 
-while (menu.ToLower() != "esci")
-{
-    if (int.TryParse(menu, out int sceltatraccia) && IndiceValido(sceltatraccia, griglia.GetLength(0)))
-    {
-        Console.WriteLine("Scrivi quale step vuoi modificare");
-        string sceltastep = Console.ReadLine();
-        if (int.TryParse(sceltastep, out int step) && IndiceValido(step, griglia.GetLength(1)))
-        {
-            griglia[sceltatraccia, step] = !griglia[sceltatraccia, step];
-        }
-        else
-        {
-            Console.WriteLine("Valore non valido");
-        }
-    }
-    else
-    {
-        Console.WriteLine("Valore non valido");
-    }
-    Stampa(griglia, nomi);
-                for (int traccia = 0; traccia < nomi.Length; traccia++)
-{
-    Console.WriteLine(nomi[traccia] + ": " + ContaStepAttivi(griglia,traccia) + " step attivi");
-}
-    Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
-    for (int i = 0; i < nomi.Length ; i++)
-{
-    Console.Write(i + " - " + nomi[i] + " ");
-    Console.WriteLine();
-}
-    menu = Console.ReadLine();
-}
+// string menu = Console.ReadLine();
 
-
-Console.WriteLine("Ciao");
-
-static void Stampa(bool[,] griglia, string[] nomi)
-{
-    for (int t = 0; t < griglia.GetLength(0); t++)
-    {
-        Console.Write (t + " - " + nomi[t] + " ");
-        for (int s = 0; s < griglia.GetLength(1); s++)
-        {
-            if (griglia[t, s])
-            {
-                Console.Write("o");
-            }
-            else
-            {
-                Console.Write("-");
-            }
-        }
-        Console.WriteLine();
-    }
-}
+// while (menu.ToLower() != "esci")
+// {
+//     if (int.TryParse(menu, out int sceltatraccia) && IndiceValido(sceltatraccia, griglia.GetLength(0)))
+//     {
+//         Console.WriteLine("Scrivi quale step vuoi modificare");
+//         string sceltastep = Console.ReadLine();
+//         if (int.TryParse(sceltastep, out int step) && IndiceValido(step, griglia.GetLength(1)))
+//         {
+//             griglia[sceltatraccia, step] = !griglia[sceltatraccia, step];
+//         }
+//         else
+//         {
+//             Console.WriteLine("Valore non valido");
+//         }
+//     }
+//     else
+//     {
+//         Console.WriteLine("Valore non valido");
+//     }
+//     Stampa(griglia, nomi);
+//                 for (int traccia = 0; traccia < nomi.Length; traccia++)
+// {
+//     Console.WriteLine(nomi[traccia] + ": " + ContaStepAttivi(griglia,traccia) + " step attivi");
+// }
+//     Console.WriteLine("Scrivi quale traccia vuoi modificare o digita esci per uscire");
+//     for (int i = 0; i < nomi.Length ; i++)
+// {
+//     Console.Write(i + " - " + nomi[i] + " ");
+//     Console.WriteLine();
+// }
+//     menu = Console.ReadLine();
+// }
 
 
-static int ContaStepAttivi(bool[,] griglia, int traccia)
-{
-    int contatore = 0;
-    for (int stepp = 0; stepp < griglia.GetLength(1); stepp++)
-    {
-        if (griglia[traccia, stepp])
-        {
-            contatore++;
-        }
-    }
-    return contatore;
-}
+// Console.WriteLine("Ciao");
 
-static bool BpmValido(int bpm)
-{
-    return bpm >= 40 && bpm <= 240;
-}
-
-static bool IndiceValido(int valoreDaVerificare, int valoreCorretto)
-{
-    return valoreDaVerificare >= 0 && valoreDaVerificare < valoreCorretto;
-}
-
-static float CampioniPerSemicroma(int bpm, int sampleRate)
-{
-    float campioni = 60f * sampleRate / bpm;
-    return campioni / 4f;
-}
-
-static float DurataStepinMS (int bpm)
-{
-    return 60000f / bpm / 4f;
-}
+// static void Stampa(bool[,] griglia, string[] nomi)
+// {
+//     for (int t = 0; t < griglia.GetLength(0); t++)
+//     {
+//         Console.Write (t + " - " + nomi[t] + " ");
+//         for (int s = 0; s < griglia.GetLength(1); s++)
+//         {
+//             if (griglia[t, s])
+//             {
+//                 Console.Write("o");
+//             }
+//             else
+//             {
+//                 Console.Write("-");
+//             }
+//         }
+//         Console.WriteLine();
+//     }
+// }
 
 
+// static int ContaStepAttivi(bool[,] griglia, int traccia)
+// {
+//     int contatore = 0;
+//     for (int stepp = 0; stepp < griglia.GetLength(1); stepp++)
+//     {
+//         if (griglia[traccia, stepp])
+//         {
+//             contatore++;
+//         }
+//     }
+//     return contatore;
+// }
 
+// static bool BpmValido(int bpm)
+// {
+//     return bpm >= 40 && bpm <= 240;
+// }
 
+// static bool IndiceValido(int valoreDaVerificare, int valoreCorretto)
+// {
+//     return valoreDaVerificare >= 0 && valoreDaVerificare < valoreCorretto;
+// }
 
+// static float CampioniPerSemicroma(int bpm, int sampleRate)
+// {
+//     float campioni = 60f * sampleRate / bpm;
+//     return campioni / 4f;
+// }
+
+// static float DurataStepinMS (int bpm)
+// {
+//     return 60000f / bpm / 4f;
+// }
 
 
 
@@ -111,20 +109,25 @@ static float DurataStepinMS (int bpm)
 
 
 
-static void StampaTraccia (bool[] traccia)
-{
-foreach (bool vero in traccia)
-{
-    if (vero)
-    {
-        Console.WriteLine("o");
-    }
-    else
-    {
-        Console.WriteLine("-");
-    }
-}    
-}
+
+
+
+
+
+// static void StampaTraccia (bool[] traccia)
+// {
+// foreach (bool vero in traccia)
+// {
+//     if (vero)
+//     {
+//         Console.WriteLine("o");
+//     }
+//     else
+//     {
+//         Console.WriteLine("-");
+//     }
+// }    
+// }
 
 
 
@@ -236,3 +239,87 @@ foreach (bool vero in traccia)
 //     }
 //     return quantitaserie;
 // }
+
+
+// Console.WriteLine ("scrivi il comando");
+// string comandi = Console.ReadLine();
+
+// switch (comandi.ToLower())
+// {
+//     case "play":
+//         Console.WriteLine("Avvio");
+//     break;
+//     case "stop":
+//         Console.WriteLine("Fermo");
+//     break;
+//     case "rec":
+//         Console.WriteLine("Registro");
+//     break;
+//     default:
+//         Console.WriteLine("Comando Sconosciuto");
+//     break;
+// }
+
+// static float LivelloSuperficie(SurfaceType surface)
+// {
+//     float db = float.NegativeInfinity;
+//     switch (surface)
+//     {
+//         case SurfaceType.Grass:
+//         db = -12;
+//         break;
+//         case SurfaceType.Gravel:
+//         db = -6;
+//         break;
+//         case SurfaceType.Wood:
+//         db = -8;
+//         break;
+//         case SurfaceType.Metal:
+//         db = -3;
+//         break;
+//     }
+//     return db;
+// }
+
+
+// Console.WriteLine(LivelloSuperficie(SurfaceType.Grass));
+
+// Console.WriteLine(LivelloSuperficie(SurfaceType.Metal));
+
+// enum SurfaceType
+// {
+//     Grass,
+//     Gravel,
+//     Wood,
+//     Metal
+// }
+
+
+
+// static float DbPerMixer(float slider)
+// {
+//     slider = Math.Clamp(slider, 0f, 1f);
+//     float sliderclamplog = (float)(20 * Math.Log10(slider));
+//     sliderclamplog = Math.Clamp(sliderclamplog, -80f, 0f);
+//     return sliderclamplog;
+// }
+
+
+// Console.WriteLine(DbPerMixer(0f));
+// Console.WriteLine(DbPerMixer(0.5f));
+// Console.WriteLine(DbPerMixer(1f));
+// Console.WriteLine(DbPerMixer(-0.3f));
+
+
+static float Lerp(float a, float b, float t)
+{
+    t = Math.Clamp(t , 0f, 1f);
+    float doveSto = a + (b - a) * t;
+    return doveSto;
+}
+
+Console.WriteLine(Lerp(-12f, 0f, 0f));
+Console.WriteLine(Lerp(-12f, 0f, 0.25f));
+Console.WriteLine(Lerp(-12f, 0f, 0.5f));
+Console.WriteLine(Lerp(-12f, 0f, 1f));
+Console.WriteLine(Lerp(-12f, 0f, 1.5f));

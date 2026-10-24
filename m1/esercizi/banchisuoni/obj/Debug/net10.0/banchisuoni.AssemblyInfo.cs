@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("banchisuoni")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07595f170607fafde12e7f5e11482c6345b13b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6efa2240cb4e601431f1c58cedc78764cd0afeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("banchisuoni")]
 [assembly: System.Reflection.AssemblyTitleAttribute("banchisuoni")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
