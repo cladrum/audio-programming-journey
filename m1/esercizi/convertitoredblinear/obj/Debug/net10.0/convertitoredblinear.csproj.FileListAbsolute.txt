@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\convertitoredblinear\bin\Debug\net10.0\convertitoredblinear.exe
+D:\STUDIO\m1\esercizi\convertitoredblinear\bin\Debug\net10.0\convertitoredblinear.deps.json
+D:\STUDIO\m1\esercizi\convertitoredblinear\bin\Debug\net10.0\convertitoredblinear.runtimeconfig.json
+D:\STUDIO\m1\esercizi\convertitoredblinear\bin\Debug\net10.0\convertitoredblinear.dll
+D:\STUDIO\m1\esercizi\convertitoredblinear\bin\Debug\net10.0\convertitoredblinear.pdb
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.sourcelink.json
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.dll
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\refint\convertitoredblinear.dll
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.pdb
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\convertitoredblinear.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\convertitoredblinear\obj\Debug\net10.0\ref\convertitoredblinear.dll
