@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "libreriasuoni/1.0.0": {
+        "runtime": {
+          "libreriasuoni.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "libreriasuoni/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

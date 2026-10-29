@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\libreriasuoni\bin\Debug\net10.0\libreriasuoni.exe
+D:\STUDIO\m1\esercizi\libreriasuoni\bin\Debug\net10.0\libreriasuoni.deps.json
+D:\STUDIO\m1\esercizi\libreriasuoni\bin\Debug\net10.0\libreriasuoni.runtimeconfig.json
+D:\STUDIO\m1\esercizi\libreriasuoni\bin\Debug\net10.0\libreriasuoni.dll
+D:\STUDIO\m1\esercizi\libreriasuoni\bin\Debug\net10.0\libreriasuoni.pdb
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.sourcelink.json
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.dll
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\refint\libreriasuoni.dll
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.pdb
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\libreriasuoni.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\libreriasuoni\obj\Debug\net10.0\ref\libreriasuoni.dll

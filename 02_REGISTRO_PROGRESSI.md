@@ -1,37 +1,35 @@
 === AGGIORNAMENTO REGISTRO ===
 [STATO ATTUALE]
 Modulo corrente: 1 — Basi di C#
-Lezione corrente: blocco B completato (const, scope, formattazione stringhe, overload); convertitore dB ↔ lineare con input da tastiera completato
-Prossimo argomento: blocco C (List, Dictionary, debugging con breakpoint); richiamo a freddo di: perché `ok` parte da false, lerp a mano con tutti i passaggi; quiz di teoria M1; mini-progetto Console Drum Machine; esame modulo 1
-Compiti in sospeso: push GitHub (convertitore dB ↔ lineare, e dalla sessione 12: switch comandi, LivelloSuperficie con enum, DbPerMixer, Lerp, IndiceValido, uscita con ToLower); rinomina parametri IndiceValido in indice/lunghezza e eventuale "a" in "traccia"; domanda array vuoto su CanalePiuForte (-1 contro 0); StampaTraccia con Write invece di WriteLine; domanda "perché ok parte da false"; lerp a mano con t; diario; facoltativi: conteggio attraversamenti di soglia, metronomo, DbPerMixer con const
-Sessioni svolte: 13
-Ore totali (stima): 41,5
+Lezione corrente: blocco C parziale: List ripresa, Dictionary completato con esercizio libreria suoni (menu a 6 voci, TryParse + range, ContainsKey/TryGetValue/Remove, ToLower, default)
+Prossimo argomento: debugging con breakpoint (sul programma libreria suoni); richiamo a freddo chiave/valore del Dictionary; quiz di teoria M1; mini-progetto Console Drum Machine; esame modulo 1
+Compiti in sospeso: push GitHub (libreria suoni Dictionary); commenti sul perché nel codice; richiamo a freddo chiave/valore e perché ContainsKey nel caso 4; rinomina parametri IndiceValido in indice/lunghezza e eventuale "a" in "traccia"; domanda array vuoto su CanalePiuForte (-1 contro 0); StampaTraccia con Write invece di WriteLine; diario; facoltativi: while sul volume (richiedere solo il dB), conteggio attraversamenti di soglia, metronomo, DbPerMixer con const
+Sessioni svolte: 14
+Ore totali (stima): 45,7 (sessione 14: 16:00–23:10 meno 3 ore di pausa = circa 4h10)
 
 [CHECKBOX DA SPUNTARE]
-- Modulo 1 > Argomenti > const [x] — verificato: motivo (un solo punto da cambiare) e errore a compilazione se riassegnata
-- Modulo 1 > Argomenti > Scope [x] — graffe, costante dentro/fuori dal metodo, record fuori dal ciclo, i case di uno switch condividono lo scope
-- Modulo 1 > Argomenti > Formattazione stringhe [x] — $"{x:F2}", F arrotonda e non cambia il valore; allineamento visto come riferimento, da non considerare acquisito
-- Modulo 1 > Argomenti > Overload [x] — numero/tipo dei parametri, il tipo di ritorno non conta
-- Modulo 1 > Argomenti > TryParse + range [x] — rifatto in contesto nuovo con condizione a tre parti e condizione opposta
-- Modulo 1 > Argomenti > Math.Max [x] — dato come riferimento dopo l'esercizio, da riusare
-- Modulo 1 > Argomenti > List, Dictionary, debugging [ ] — blocco C, da ripassare
-- Modulo 1 > Esercizi > Convertitore dB ↔ lineare (menu, switch, cicli di input, const) [x]
+- Modulo 1 > Argomenti > List [x] — Count, indici che scalano dopo Remove, indice fuori range = runtime, ultimo indice Count - 1
+- Modulo 1 > Argomenti > Dictionary [x] — Add (errore su chiave duplicata), indexer (legge/modifica/crea), ContainsKey, TryGetValue con out, Remove, Count, foreach su KeyValuePair; chiave/valore invertiti al primo tentativo, da richiamare a freddo
+- Modulo 1 > Argomenti > Debugging con breakpoint [ ] — da fare
+- Modulo 1 > Esercizi > Libreria suoni con Dictionary (menu, range −80…+12, duplicati, "non presente", lista vuota, ToLower) [x] — run con 8 input tutti corretti
+- Modulo 1 > Richiami > Lerp a mano e t = 0 / t = 1 [x] — risolto con passaggi scritti uno per uno
 
 [LACUNE — nuove o aggiornate]
 | # | Lacuna | Prima volta | Occorrenze | Esercizi mirati | Risolta? |
 |---|---|---|---|---|---|
-| 3 | Confusione nome parametro / variabile esterna nei metodi | 24/09/2026 | 8 (oggi nessuna nuova) | Metodi con parametri su casi nuovi | Sì, da confermare |
-| 5 | Dal problema alla logica: cosa dentro e cosa fuori il ciclo; stato tra i giri | 01/10/2026 | 13 (oggi: ruolo del while di input e condizione "opposta" da guidare; struttura menu riorganizzata da solo; stampa del messaggio dentro il ciclo da correggere) | Pseudocodice; prove a mano dei giri | Parzialmente |
-| 9 | Compilazione vs runtime quando il dato è un valore | 04/10/2026 | 5 (oggi nessuna nuova: Clamp invertito = runtime, enum = compilazione, giusti) | — | Quasi |
-| 16 | Ruolo delle variabili; direzione dell'= | 22/10/2026 | 3 (oggi nessuna nuova) | — | Quasi |
-| 17 | Negazione di un "oppure" | 22/10/2026 | 1 (oggi applicata bene: !ok || < || > in contesto nuovo) | — | Quasi |
-| 18 | Leggere la consegna | 22/10/2026 | 3 (oggi: il TryParse da includere nella condizione "buono", non solo il range) | Rileggere la consegna prima di scrivere | Segnalata |
-| 19 | Segno nelle sottrazioni con numeri negativi (b - a con dB) | 24/10/2026 | 1 (oggi: b - a = 60 corretto) | Lerp e differenze tra livelli in dB negativi | Quasi |
-| 20 | Prove a mano: saltare un passaggio della formula | 25/10/2026 | 1 (lerp: scritto -60 + 60 senza moltiplicare per t) | Scrivere ogni passaggio uno per uno | No |
+| 5 | Dal problema alla logica: cosa dentro e cosa fuori il ciclo; stato tra i giri | 01/10/2026 | 14 (oggi: else agganciato all'if sbagliato nel caso 1, risolto con test a mano e riscrittura; dizionario fuori dal ciclo giusto; pseudocodice completo) | Pseudocodice; prove a mano dei giri | Parzialmente |
+| 9 | Compilazione vs runtime quando il dato è un valore | 04/10/2026 | 5 (oggi nessuna nuova: suoni[3] e Dictionary["tom"] = runtime, giusti) | — | Quasi |
+| 17 | Negazione di un "oppure" | 22/10/2026 | 2 (oggi: !ok \|\| >= \|\| <= scritto al contrario, corretto con test a mano; poi forma "buona" TryParse && >= && <= scritta giusta) | Test a mano con valore valido e ai bordi | Quasi |
+| 18 | Leggere la consegna | 22/10/2026 | 4 (oggi: regole della consegna coperte quasi tutte, ma "richiedi il valore" non applicato: scelta A) | Rileggere la consegna prima di scrivere | Segnalata |
+| 19 | Segno nelle sottrazioni con numeri negativi (b - a con dB) | 24/10/2026 | 2 (oggi: 0 - 60 invece di 0 - (-60), corretto da solo) | Lerp e differenze tra livelli in dB negativi | Quasi |
+| 20 | Prove a mano: saltare un passaggio della formula | 25/10/2026 | 2 (oggi: operatore + omesso e scorciatoia -60 * 0.5; con i passaggi scritti uno per uno ha trovato l'errore da solo) | Scrivere ogni passaggio uno per uno | Parzialmente |
+| 21 | Chiave e valore del Dictionary invertiti (primo tipo = chiave) | 29/10/2026 | 1 | Richiamo a freddo: Dictionary<string, int> nome traccia → canale | No |
+| 22 | Sintassi di metodi nuovi: out solo dove serve (ContainsKey non ha out); ; dopo la parentesi dell'if | 29/10/2026 | 1 | Riscrivere a mano if con ContainsKey/TryGetValue | No |
 
 [LOG SESSIONE — riga da aggiungere in cima]
 | # | Data | Modulo/Lezione | Cosa abbiamo fatto | Chiaro | Poco chiaro | Compiti |
 |---|---|---|---|---|---|---|
+| 14 | 29/10/2026 | M1 (blocco C: List, Dictionary; esercizio libreria suoni con Dictionary) | Richiami (ok come segnaposto, condizione con range, lerp e t = 0/1); List (Count, indici, Remove, runtime); Dictionary (vocabolario completo, TryGetValue, foreach su coppie); esercizio libreria suoni con pseudocodice, correzione di else, ! e range, ToLower, Remove e TryGetValue; run di 8 input; sunto. Errore del tutor: esercizio List già fatto riproposto | List e Count; indice fuori range = runtime; chiave duplicata con Add; modifica per chiave; foreach su KeyValuePair; ordine nome/volume (scelta A); while del menu con default; ToLower alla lettura | chiave/valore invertiti (Dictionary<string, float>); sintassi con ContainsKey e out; else agganciato all'if giusto; condizione opposta con !ok \|\| < \|\|; segni con numeri negativi | push; commenti sul perché; richiamo chiave/valore; diario; facoltativo while sul volume |
 | 13 | 25/10/2026 | M1 (blocco B: const, scope, formattazione stringhe, overload; esercizio convertitore dB ↔ lineare) | Ripasso (lerp, Clamp invertito, enum); const verificato; scope; stringhe interpolate con F; overload; esercizio convertitore con menu, switch, due cicli di input, TryParse + range, Math.Max; sunto | const; scope; $"{x:F2}"; overload; while contro if; condizione opposta con !ok || < ||; struttura menu con lettura in fondo al giro | ruolo del while di input e quando va dentro il case; arrotondamento di F (regola da dare per intero); Math.Max e riferimenti di sintassi dati dopo l'esercizio, non prima; lerp: dimenticato t nel calcolo a mano | push GitHub (convertitore + compiti sessione 12); domanda su ok = false; lerp a mano con t; diario; facoltativi conteggio soglie, metronomo |
 | 12 | 24/10/2026 | M1 (switch + enum, blocco A: double, Pow/Log10, Clamp, Lerp) | Ripasso (while con && e !=, record fuori dal ciclo); switch con ReadLine e ToLower; enum SurfaceType e LivelloSuperficie; confronto elenco argomenti M1 con curriculum e piano in tre blocchi; double e cast; DbPerMixer; Math.Clamp; Lerp con clamp; const spiegato, non verificato | switch come alternative su una variabile; ToLower con case minuscoli; enum e errori a compilazione; cast float/double; clamp prima e dopo la conversione; ordine dei due clamp; formula del lerp | dove si sceglie il valore nello switch (equivoco nato dalla consegna); segno di b - a con dB negativi; RT del TryParse non ripreso (sospeso su richiesta) | lettura e verifica su const; push GitHub; compiti sessione 11; diario; facoltativo DbPerMixer con const |
 | 11 | 22/10/2026 | M1 (metodi bool generici, || e !, stato tra i giri) | Verifiche a mano di BpmValido; IndiceValido nel menu; CampioniPerSemicroma e DurataStepInMs; || e !; while di uscita con ToLower; PiuForte, CanalePiuForte, PiuLungaSerie, ContaSerie; parte del lavoro svolta su Claude Code in VS Code e incollata dopo; da oggi lavoro in chat | IndiceValido generico; ToLower; return dopo il ciclo; seriepiulunga = serie; ContaSerie con controllo dopo il ciclo | negazione di un "oppure"; stato tra i giri nei contesti nuovi; ruolo delle variabili nel foreach; TryParse a freddo | push; rinomina parametri; array vuoto su CanalePiuForte; Write in StampaTraccia; float.TryParse + range dB in chat; diario |
