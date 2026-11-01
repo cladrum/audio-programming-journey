@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\randomizzatore\bin\Debug\net10.0\randomizzatore.exe
+D:\STUDIO\m1\esercizi\randomizzatore\bin\Debug\net10.0\randomizzatore.deps.json
+D:\STUDIO\m1\esercizi\randomizzatore\bin\Debug\net10.0\randomizzatore.runtimeconfig.json
+D:\STUDIO\m1\esercizi\randomizzatore\bin\Debug\net10.0\randomizzatore.dll
+D:\STUDIO\m1\esercizi\randomizzatore\bin\Debug\net10.0\randomizzatore.pdb
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.sourcelink.json
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.dll
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\refint\randomizzatore.dll
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.pdb
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\randomizzatore.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\randomizzatore\obj\Debug\net10.0\ref\randomizzatore.dll

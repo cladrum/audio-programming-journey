@@ -109,8 +109,6 @@ static float DurataStepinMS (int bpm)
 
 
 
-
-
 static void StampaTraccia (bool[] traccia)
 {
 foreach (bool vero in traccia)
@@ -184,140 +182,140 @@ static int CanalePiuForte(float[] livelli)
 
 
 
-bool[] traccia = { true, true, false, true, true, true, false, true };
+// bool[] traccia = { true, true, false, true, true, true, false, true };
 
 
-static int PiuLungaSerie(bool[] traccia)
-{
-    int serie = 0;
-    int seriepiulunga = 0;
-    foreach (bool valore in traccia)
-    {
-        if (valore)
-        {
-            serie++;
-            if (serie > seriepiulunga)
-            {
-                seriepiulunga = serie;
-            }
-        }
-        else
-        {
-            serie = 0;
-        }
+// static int PiuLungaSerie(bool[] traccia)
+// {
+//     int serie = 0;
+//     int seriepiulunga = 0;
+//     foreach (bool valore in traccia)
+//     {
+//         if (valore)
+//         {
+//             serie++;
+//             if (serie > seriepiulunga)
+//             {
+//                 seriepiulunga = serie;
+//             }
+//         }
+//         else
+//         {
+//             serie = 0;
+//         }
 
-    }
-    return seriepiulunga;
-}
+//     }
+//     return seriepiulunga;
+// }
 
-static int ContaSerie(bool[] traccia)
-{
-    int serie = 0;
-    int quantitaserie = 0;
-    foreach (bool valore in traccia)
-    {
-        if (valore)
-        {
-            serie++;
-        }
-        else
-        {
-            if (serie > 0)
-            {
-                quantitaserie++;
-            }
-            serie = 0;
-        }
+// static int ContaSerie(bool[] traccia)
+// {
+//     int serie = 0;
+//     int quantitaserie = 0;
+//     foreach (bool valore in traccia)
+//     {
+//         if (valore)
+//         {
+//             serie++;
+//         }
+//         else
+//         {
+//             if (serie > 0)
+//             {
+//                 quantitaserie++;
+//             }
+//             serie = 0;
+//         }
 
-    }
-    if (serie > 0)
-    {
-        quantitaserie++;
-    }
-    return quantitaserie;
-}
-
-
-Console.WriteLine ("scrivi il comando");
-string comandi = Console.ReadLine();
-
-switch (comandi.ToLower())
-{
-    case "play":
-        Console.WriteLine("Avvio");
-    break;
-    case "stop":
-        Console.WriteLine("Fermo");
-    break;
-    case "rec":
-        Console.WriteLine("Registro");
-    break;
-    default:
-        Console.WriteLine("Comando Sconosciuto");
-    break;
-}
-
-static float LivelloSuperficie(SurfaceType surface)
-{
-    float db = float.NegativeInfinity;
-    switch (surface)
-    {
-        case SurfaceType.Grass:
-        db = -12;
-        break;
-        case SurfaceType.Gravel:
-        db = -6;
-        break;
-        case SurfaceType.Wood:
-        db = -8;
-        break;
-        case SurfaceType.Metal:
-        db = -3;
-        break;
-    }
-    return db;
-}
+//     }
+//     if (serie > 0)
+//     {
+//         quantitaserie++;
+//     }
+//     return quantitaserie;
+// }
 
 
-Console.WriteLine(LivelloSuperficie(SurfaceType.Grass));
+// Console.WriteLine ("scrivi il comando");
+// string comandi = Console.ReadLine();
 
-Console.WriteLine(LivelloSuperficie(SurfaceType.Metal));
+// switch (comandi.ToLower())
+// {
+//     case "play":
+//         Console.WriteLine("Avvio");
+//     break;
+//     case "stop":
+//         Console.WriteLine("Fermo");
+//     break;
+//     case "rec":
+//         Console.WriteLine("Registro");
+//     break;
+//     default:
+//         Console.WriteLine("Comando Sconosciuto");
+//     break;
+// }
 
-enum SurfaceType
-{
-    Grass,
-    Gravel,
-    Wood,
-    Metal
-}
+// static float LivelloSuperficie(SurfaceType surface)
+// {
+//     float db = float.NegativeInfinity;
+//     switch (surface)
+//     {
+//         case SurfaceType.Grass:
+//         db = -12;
+//         break;
+//         case SurfaceType.Gravel:
+//         db = -6;
+//         break;
+//         case SurfaceType.Wood:
+//         db = -8;
+//         break;
+//         case SurfaceType.Metal:
+//         db = -3;
+//         break;
+//     }
+//     return db;
+// }
+
+
+// Console.WriteLine(LivelloSuperficie(SurfaceType.Grass));
+
+// Console.WriteLine(LivelloSuperficie(SurfaceType.Metal));
+
+// enum SurfaceType
+// {
+//     Grass,
+//     Gravel,
+//     Wood,
+//     Metal
+// }
 
 
 
-static float DbPerMixer(float slider)
-{
-    slider = Math.Clamp(slider, 0f, 1f);
-    float sliderclamplog = (float)(20 * Math.Log10(slider));
-    sliderclamplog = Math.Clamp(sliderclamplog, -80f, 0f);
-    return sliderclamplog;
-}
+// static float DbPerMixer(float slider)
+// {
+//     slider = Math.Clamp(slider, 0f, 1f);
+//     float sliderclamplog = (float)(20 * Math.Log10(slider));
+//     sliderclamplog = Math.Clamp(sliderclamplog, -80f, 0f);
+//     return sliderclamplog;
+// }
 
 
-Console.WriteLine(DbPerMixer(0f));
-Console.WriteLine(DbPerMixer(0.5f));
-Console.WriteLine(DbPerMixer(1f));
-Console.WriteLine(DbPerMixer(-0.3f));
+// Console.WriteLine(DbPerMixer(0f));
+// Console.WriteLine(DbPerMixer(0.5f));
+// Console.WriteLine(DbPerMixer(1f));
+// Console.WriteLine(DbPerMixer(-0.3f));
 
-static float Lerp(float a, float b, float t)
-{
-    t = Math.Clamp(t , 0f, 1f);
-    float doveSto = a + (b - a) * t;
-    return doveSto;
-}
+// static float Lerp(float a, float b, float t)
+// {
+//     t = Math.Clamp(t , 0f, 1f);
+//     float doveSto = a + (b - a) * t;
+//     return doveSto;
+// }
 
-Console.WriteLine(Lerp(-12f, 0f, 0f));
-Console.WriteLine(Lerp(-12f, 0f, 0.25f));
-Console.WriteLine(Lerp(-12f, 0f, 0.5f));
-Console.WriteLine(Lerp(-12f, 0f, 1f));
-Console.WriteLine(Lerp(-12f, 0f, 1.5f));
+// Console.WriteLine(Lerp(-12f, 0f, 0f));
+// Console.WriteLine(Lerp(-12f, 0f, 0.25f));
+// Console.WriteLine(Lerp(-12f, 0f, 0.5f));
+// Console.WriteLine(Lerp(-12f, 0f, 1f));
+// Console.WriteLine(Lerp(-12f, 0f, 1.5f));
 
 

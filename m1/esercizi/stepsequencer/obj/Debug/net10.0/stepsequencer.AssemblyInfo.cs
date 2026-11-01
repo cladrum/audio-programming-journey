@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("stepsequencer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad408b2775467fb6365d128dcfeb6beee01c8378")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17fd27b99078ee397ac63b0a9f73a78bb72f76d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("stepsequencer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("stepsequencer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

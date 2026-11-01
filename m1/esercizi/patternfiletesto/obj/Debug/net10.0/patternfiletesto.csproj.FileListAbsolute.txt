@@ -1,0 +1,15 @@
+D:\STUDIO\m1\esercizi\patternfiletesto\bin\Debug\net10.0\patternfiletesto.exe
+D:\STUDIO\m1\esercizi\patternfiletesto\bin\Debug\net10.0\patternfiletesto.deps.json
+D:\STUDIO\m1\esercizi\patternfiletesto\bin\Debug\net10.0\patternfiletesto.runtimeconfig.json
+D:\STUDIO\m1\esercizi\patternfiletesto\bin\Debug\net10.0\patternfiletesto.dll
+D:\STUDIO\m1\esercizi\patternfiletesto\bin\Debug\net10.0\patternfiletesto.pdb
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.AssemblyInfoInputs.cache
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.AssemblyInfo.cs
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.csproj.CoreCompileInputs.cache
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.sourcelink.json
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.dll
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\refint\patternfiletesto.dll
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.pdb
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\patternfiletesto.genruntimeconfig.cache
+D:\STUDIO\m1\esercizi\patternfiletesto\obj\Debug\net10.0\ref\patternfiletesto.dll

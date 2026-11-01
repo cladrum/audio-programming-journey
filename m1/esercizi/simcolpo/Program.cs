@@ -1,6 +1,4 @@
-﻿
-
-int hp = 100;
+﻿int hp = 100;
 Random rng = new Random();
 int Danno()
 {
