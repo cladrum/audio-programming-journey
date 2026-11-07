@@ -186,7 +186,7 @@ static int CanalePiuForte(float[] livelli)
 
 
 // static int PiuLungaSerie(bool[] traccia)
-// {
+// {co
 //     int serie = 0;
 //     int seriepiulunga = 0;
 //     foreach (bool valore in traccia)

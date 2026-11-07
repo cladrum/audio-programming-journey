@@ -149,3 +149,25 @@ Pseudocodice prima del codice. Aggiunto dopo la sessione del 01/10/2026, in cui 
 1. Si scrive l'algoritmo come lista numerata di passi in italiano semplice, come lo si spiegherebbe a voce a qualcuno senza sapere C#.
 2. Si verifica quella lista (è completa? gestisce i casi limite, tipo il primo giro di un ciclo?) prima di tradurla in codice.
 3. Solo dopo si traduce riga per riga in C#, confrontando il codice con la lista quando qualcosa non torna, invece di cercare il bug "a mente".
+
+
+10. Metodo per la pratica (dal modulo 2)
+
+Aggiunto dopo l'esame del modulo 1 (07/11/2026): la teoria funziona (12/14), ma il passaggio da idea a codice no (pratica 1/4). La teoria resta come nella sezione 9. Cambia solo la pratica.
+
+Prima di ogni esercizio, quattro domande fatte insieme a voce in chat, senza ricetta scritta:
+1. Cosa entra? (parametri)
+2. Cosa esce? (return)
+3. Cosa si ripete? (ciclo)
+4. Cosa devo ricordare da un giro all'altro? (variabili fuori dal ciclo)
+All'inizio le pongo io; poi le dici tu e io confermo.
+
+Dopo ogni concetto nuovo, un ponte: un esercizio piccolo che lo unisce a due cose già note, risolto con le quattro domande.
+
+A fine lezione, un esercizio della stessa taglia da fare da solo.
+
+Nel modulo 2 si lavora su un unico progetto che cresce (Virtual Mixing Console): ogni lezione aggiunge un pezzo al codice già scritto, invece di esercizi separati.
+
+Consegne chiare: ogni esercizio dice a parole cosa riceve e cosa restituisce il metodo. Decidere da solo parametri e return viene dopo, quando l'impostazione regge.
+
+Verifica: dopo le prime 4–5 sessioni del modulo 2, si guarda se funziona; se no, si cambia.
