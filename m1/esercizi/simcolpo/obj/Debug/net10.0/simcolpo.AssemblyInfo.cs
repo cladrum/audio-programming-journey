@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("simcolpo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+693b101cb498469b0a52d5ba6dfdac737a21882f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a0dec4f778dc4477c25bd35453fb93b4e246a47")]
 [assembly: System.Reflection.AssemblyProductAttribute("simcolpo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("simcolpo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
