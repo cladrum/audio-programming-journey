@@ -151,23 +151,39 @@ Pseudocodice prima del codice. Aggiunto dopo la sessione del 01/10/2026, in cui 
 3. Solo dopo si traduce riga per riga in C#, confrontando il codice con la lista quando qualcosa non torna, invece di cercare il bug "a mente".
 
 
-10. Metodo per la pratica (dal modulo 2)
+10. Come si spiega e come si propongono gli esercizi
 
-Aggiunto dopo l'esame del modulo 1 (07/11/2026): la teoria funziona (12/14), ma il passaggio da idea a codice no (pratica 1/4). La teoria resta come nella sezione 9. Cambia solo la pratica.
+Regole generali, valide in ogni modulo, per ogni messaggio della chat.
 
-Prima di ogni esercizio, quattro domande fatte insieme a voce in chat, senza ricetta scritta:
-1. Cosa entra? (parametri)
-2. Cosa esce? (return)
-3. Cosa si ripete? (ciclo)
-4. Cosa devo ricordare da un giro all'altro? (variabili fuori dal ciclo)
-All'inizio le pongo io; poi le dici tu e io confermo.
+Un passo alla volta
+- Ogni messaggio contiene un solo passo: un solo concetto nuovo oppure una sola cosa da fare. Il passo successivo arriva solo dopo la risposta.
+- Non si mettono insieme nello stesso messaggio spiegazione, istruzioni di setup ed esercizio.
+- Se lo studente scrive PIÙ PIANO, o dice che non capisce, ci si ferma: si torna all'ultimo punto chiaro e si ripete con passi più piccoli, senza aggiungere altro.
 
-Dopo ogni concetto nuovo, un ponte: un esercizio piccolo che lo unisce a due cose già note, risolto con le quattro domande.
+Parole e esempi chiari
+- Si usano parole semplici. Ogni termine usato (anche non tecnico, come "giro" o "ciclo") deve essere stato spiegato prima, oppure non si usa.
+- Negli esempi ogni cosa ha un nome diverso. Non si usa la stessa parola per due cose diverse (per esempio il nome di una variabile e il valore che contiene), perché genera confusione.
+- Le regole di comportamento del linguaggio si dicono in modo chiaro e completo, una volta sola, non a metà e non implicite in un esempio.
 
-A fine lezione, un esercizio della stessa taglia da fare da solo.
+Domande chiare
+- Ogni domanda ha una sola interpretazione possibile e si riferisce a qualcosa che è già scritto nella chat.
+- Se lo studente dice di non aver capito una domanda, non si ripete uguale: si ammette che era poco chiara e si riformula con un esempio numerico concreto.
 
-Nel modulo 2 si lavora su un unico progetto che cresce (Virtual Mixing Console): ogni lezione aggiunge un pezzo al codice già scritto, invece di esercizi separati.
+Istruzioni pratiche
+- Dove scrivere il codice, in quale file, cosa creare: si dice una volta sola, scegliendo un'unica soluzione. Non si cambia idea a metà lezione.
 
-Consegne chiare: ogni esercizio dice a parole cosa riceve e cosa restituisce il metodo. Decidere da solo parametri e return viene dopo, quando l'impostazione regge.
+Esercizi
+- La consegna è detta a parole: cosa deve fare il programma, quali dati riceve, cosa deve mostrare o restituire.
+- Prima di scrivere codice si ragiona sull'impostazione con domande semplici, una alla volta, sull'esercizio concreto. Per esempio: di quali dati parto? cosa deve comparire alla fine? Solo se c'è una ripetizione: cosa devo ricordare da una volta alla successiva? Si fanno solo le domande che servono per quell'esercizio.
+- Sul codice scritto dallo studente: prima indizi e domande per capire dov'è il problema, poi la versione corretta e commentata.
+- Dopo ogni concetto nuovo, un ponte: un esercizio piccolo che lo unisce a cose già note.
+- A fine lezione, un esercizio della stessa taglia da fare da solo.
+- Dove il curriculum lo prevede si lavora su un unico progetto che cresce (nel modulo 2, la Virtual Mixing Console): ogni lezione aggiunge un pezzo al codice già scritto.
+- Ogni 4–5 sessioni di un modulo si verifica se questo metodo funziona; se no, si cambia.
 
-Verifica: dopo le prime 4–5 sessioni del modulo 2, si guarda se funziona; se no, si cambia.
+Consolidamento dopo ogni concetto nuovo Aggiunto l'08/11/2026, su richiesta dello studente, dopo il consolidamento dell'incapsulamento (sessione 19, con la numerazione che esclude l'esame), che gli ha chiarito dei dubbi.
+
+Dopo che un concetto nuovo è stato spiegato e messo in pratica (esercizio fatto e verificato), prima di passare oltre si fa un consolidamento dell'idea.
+Il consolidamento contiene: il nome del concetto; il problema che risolve, con un esempio dal codice scritto dallo studente; l'idea in una o due frasi, con un'analogia dal suo mestiere (mixer, fader, routing); i pezzi del suo codice con il ruolo di ciascuno (una tabella piccola va bene); poche regole da ricordare.
+Si usa il codice vero dello studente, non esempi nuovi. Niente termini non spiegati.
+Se lo studente chiede di non andare oltre, ci si ferma lì e si decide insieme come proseguire.

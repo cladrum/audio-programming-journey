@@ -1,0 +1,15 @@
+D:\STUDIO\m2\esercizi\provamixer\bin\Debug\net10.0\provamixer.exe
+D:\STUDIO\m2\esercizi\provamixer\bin\Debug\net10.0\provamixer.deps.json
+D:\STUDIO\m2\esercizi\provamixer\bin\Debug\net10.0\provamixer.runtimeconfig.json
+D:\STUDIO\m2\esercizi\provamixer\bin\Debug\net10.0\provamixer.dll
+D:\STUDIO\m2\esercizi\provamixer\bin\Debug\net10.0\provamixer.pdb
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.AssemblyInfoInputs.cache
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.AssemblyInfo.cs
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.csproj.CoreCompileInputs.cache
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.sourcelink.json
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.dll
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\refint\provamixer.dll
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.pdb
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\provamixer.genruntimeconfig.cache
+D:\STUDIO\m2\esercizi\provamixer\obj\Debug\net10.0\ref\provamixer.dll
